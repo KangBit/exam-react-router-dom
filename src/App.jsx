@@ -42,9 +42,9 @@ function App() {
         {/* {routeResult} */}
         <Routes>
           <Route path="/" element={<Main />}></Route>
-          <Route path="/notice" element={<Notice />}></Route>
-          <Route path="/user" element={User}></Route>
-          <Route path="/shop" element={Shop}></Route>
+          <Route path="/notice/*" element={<Notice />}></Route>
+          <Route path="/user" element={<User />}></Route>
+          <Route path="/shop" element={<Shop />}></Route>
         </Routes>
       </Router>
     </div>
